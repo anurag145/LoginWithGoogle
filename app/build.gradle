@@ -1,10 +1,9 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-    }
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
+
     defaultConfig {
         applicationId "com.example.anurag.loginwithgoogle"
         minSdkVersion 17
@@ -17,16 +16,13 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
-        debug {
-        }
     }
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
-    compile 'com.google.android.gms:play-services-auth:8.4.0'
+    compile 'com.google.android.gms:play-services-auth:8.3.0'
     compile 'com.mcxiaoke.volley:library-aar:1.0.0'
 }
-apply plugin: 'com.google.gms.google-services'

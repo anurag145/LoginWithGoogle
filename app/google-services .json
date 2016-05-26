@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "800990129853",
+    "project_id": "genial-broker-132309"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800990129853:android:cb72953f8102e045",
+        "android_client_info": {
+          "package_name": "com.example.anurag.loginwithgoogle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800990129853-jrl5ij3h8t1l56ghel80asjc3rhpde8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anurag.loginwithgoogle",
+            "certificate_hash": "5502654D126A8221F987CC986A92AE380B3890D2"
+          }
+        },
+        {
+          "client_id": "800990129853-vvmuvsff8qf1jlip2pfm3uq55qgie5d2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcoMve1lPuXQZNGtPeWNalF3EqBgaT21M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
